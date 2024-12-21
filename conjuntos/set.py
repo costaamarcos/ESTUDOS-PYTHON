@@ -1,6 +1,4 @@
-c = set()
-print(type(c))
-print(len(c))
+
 
 set()
 
