@@ -96,7 +96,7 @@ print("\n** VALUE **")
 vl = D.values()
 print(vl)
 print(type(vl))
-
+    
 print("\n** ITEMS **")
 item = D.items()
 print(item)
