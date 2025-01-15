@@ -1,23 +1,17 @@
-'''Enunciado: 
-Escreva um programa que permaneça que leia um arquivo de entrada, sabendo que esse arquivo
+'''Escreva um programa que permaneça que leia um arquivo de entrada, sabendo que esse arquivo
 tem um número inteiro em cada linha. Todos os números lidos devem ser mostrados na tela. Mostrar
-também a soma dos valores, a quantidade, a média aritmética, o menor valor e o maior valor. Usar
-aqui o mesmo arquivo de entrada do exercício anterior.
-Usar um iterador for e o arquivo como iterável. '''
+também a soma dos valores, a quantidade, a média aritmética, o menor valor e o maior valor.
+Usar um laço while e na leitura usar o método .readline()'''
 
 lista = []
+arquivo04 = open('C:/Users/estev/ESTUDOS-PYTHON/arquivos/Exercicios Resolvidos/entrada11.4.txt', 'r')
 
- 
-for linha in open('C:/Users/estev/ESTUDOS-PYTHON/arquivos/entrada11.4.txt', 'r'):
-    lista.append(int(linha))
-    
-
-'''linha = arquivo05.readline()
+linha = arquivo04.readline()
 while linha != "":
     lista.append(int(linha))
-    linha = arquivo05.readline()'''
+    linha = arquivo04.readline()
  
-
+arquivo04.close()
 print("Lista lida do arquivo")
 print(lista)
 

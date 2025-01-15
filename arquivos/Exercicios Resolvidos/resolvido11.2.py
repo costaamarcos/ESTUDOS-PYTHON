@@ -4,7 +4,7 @@ os valores digitados, exceto o zero, devem ser gravados em um arquivo em disco, 
 3 casas decimais. Usar o método .write()'''
 
 
-arquivo02 = open("C:/Users/estev/ESTUDOS-PYTHON/arquivos/saida_resolvido02.txt", "w")
+arquivo02 = open("C:/Users/estev/ESTUDOS-PYTHON/arquivos/Exercicios Resolvidos/saida_resolvido02.txt", "w")
 
 B = float(input("Digite um numero int: "))
 

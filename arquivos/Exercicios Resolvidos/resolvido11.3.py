@@ -7,7 +7,7 @@ três casas decimais. Usar o método .writelines()'''
 
 lista = []
 X = float(input("Digite um número real: ")) 
-arquivo03 = open("C:/Users/estev/ESTUDOS-PYTHON/arquivos/saida_resolvido03.txt", "w")
+arquivo03 = open("C:/Users/estev/ESTUDOS-PYTHON/arquivos/Exercicios Resolvidos/saida_resolvido03.txt", "w")
 while X != 0:    
     lista.append(f"{X:.3f}\n")
     X = float(input("Digite um número real: "))
