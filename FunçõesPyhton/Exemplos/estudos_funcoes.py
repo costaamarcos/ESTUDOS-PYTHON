@@ -11,6 +11,8 @@ for item in Lista:
     ExibeHifens()
 print('Fim do Programa')
 
+########################################
+
 def LerInteiro():
     n = int(input('Digite um inteiro: '))
     return n

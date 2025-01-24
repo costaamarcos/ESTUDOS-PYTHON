@@ -6,3 +6,6 @@ def CarregaLista():
     return L
 valores = CarregaLista()
 print(f'Lista gerada >> {valores}')
+
+valores2 = CarregaLista()
+print(f'A Segunda Lista gerada >> {valores2}')
